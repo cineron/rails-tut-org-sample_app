@@ -15,3 +15,7 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore Spring directory, per https://3rd-edition.railstutorial.org/book/static_pages#sec-minitest_reporters
+
+spring/*.pid
